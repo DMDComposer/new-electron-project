@@ -1,0 +1,26 @@
+{
+  "name": "new-electron-project",
+  "version": "1.0.0",
+  "description": "Create a electron app with multiple options. Does not install tons of dependecies and can be configured for react/electron, typescript/electron, normal electron. This cli tool uses contextBridge and is build for safety and production use.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "new-electron-project": "bin/newElectronApp.js"
+  },
+  "author": "Tyler Laceby",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "prompts": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.4",
+    "@types/fs-extra": "^9.0.12",
+    "@types/prompts": "^2.0.14"
+  }
+}

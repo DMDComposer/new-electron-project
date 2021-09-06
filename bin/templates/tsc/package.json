@@ -1,0 +1,17 @@
+{
+  "name": "electron-typescript-template",
+  "version": "1.0.0",
+  "description": "Created with npx new-electron-app & love",
+  "main": "./compiled/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "JSimplified @YT",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
